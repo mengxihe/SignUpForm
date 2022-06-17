@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <form action="/my-handling-form-page" method="post">
+    <form action="index.html" method="post">
         <img src="./imgs/CrossSection.jpg" alt="CrossSection">
         <img src="./imgs/logo.png" alt="logo">
         <p>
@@ -16,42 +16,42 @@
             <em>now</em> to get started.
         </p>
         <p>You <em>know</em> you want to.</p>
-    
-        <div class="inputs">
-            <ul>
-                <fieldset>
-                    <legend>Let's do this !</legend>
-                    <li>
-                        <label for="first-name">FIRST NAME</label>
-                        <input type="text" id="first-name" name="user_first_name">
-                    </li>
-                    <li>
-                        <label for="last-name">LAST NAME</label>
-                        <input type="text" id="last-name" name="user_last_name">
-                    </li>
-                    <li>
-                        <label for="mail">EMAIL</label>
-                        <input type="email" name="user_email" id="mail">
-                    </li>
-                    <li>
-                        <label for="number">PHONE NUMBER</label>
-                        <input type="tel" name="user_number" id="number">
-                    </li>
-                    <li>
-                        <label for="pw">PASSWORD</label>
-                        <input type="password" name="user_password" id="pw">
-                    </li>
-                    <li>
-                        <label for="confirmpw">CONFIRM PASSWORD</label>
-                        <input type="password" name="user_confirm_password" id="confirmpw">
-                    </li>
-                </fieldset>
-                    <li class="button">
-                        <button type="submit">Create Account</button>
-                    </li>
-            </ul>
-            <p>Already have an account? <a href="">log in</a></p>
-        </div>
+            
+        <legend>Let's do this !</legend>
+        <section>
+            <p>
+                <label for="first-name">FIRST NAME</label>
+                <input type="text" id="first-name" name="user_first_name">
+            </p>
+            <p>
+                <label for="last-name">LAST NAME</label>
+                <input type="text" id="last-name" name="user_last_name">
+            </p>
+            <p>
+                <label for="mail">EMAIL</label>
+                <input type="email" name="user_email" id="mail">
+            </p>
+            <p>
+                <label for="number">PHONE NUMBER</label>
+                <input type="tel" name="user_number" id="number">
+            </p>
+            <p>
+                <label for="pw">PASSWORD</label>
+                <input type="password" name="user_password" id="pw">
+            </p>
+            <p>
+                <label for="confirmpw">CONFIRM PASSWORD</label>
+                <input type="password" name="user_confirm_password" id="confirmpw">
+            </p>
+            
+        </section>
+        <section>
+            <p class="button">
+                <button type="submit">Create Account</button>
+            </p>
+        </section>
+        <p>Already have an account? <a href="">log in</a></p>
+        
 
     </form>
 

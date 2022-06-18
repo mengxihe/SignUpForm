@@ -37,29 +37,29 @@
                     <div class="column">
                         <p>
                             <label for="first-name">FIRST NAME</label>
-                            <input type="text" id="first-name" name="user_first_name">
+                            <input type="text" id="first-name" name="user_first_name" required>
                         </p>
                         <p>
                             <label for="last-name">LAST NAME</label>
-                            <input type="text" id="last-name" name="user_last_name">
+                            <input type="text" id="last-name" name="user_last_name" required>
                         </p>
                         <p>
                             <label for="mail">EMAIL</label>
-                            <input type="email" name="user_email" id="mail">
+                            <input type="email" name="user_email" id="mail" required> 
                         </p>
                     </div>
                     <div class="column">
                         <p>
                             <label for="number">PHONE NUMBER</label>
-                            <input type="tel" name="user_number" id="number">
+                            <input type="tel" name="user_number" id="number" required>
                         </p>
                         <p>
                             <label for="pw">PASSWORD</label>
-                            <input type="password" name="user_password" id="pw">
+                            <input type="password" name="user_password" id="pw" required>
                         </p>
                         <p>
                             <label for="confirmpw">CONFIRM PASSWORD</label>
-                            <input type="password" name="user_confirm_password" id="confirmpw">
+                            <input type="password" name="user_confirm_password" id="confirmpw" required>
                         </p>
                     </div>
                 </div>
@@ -70,7 +70,7 @@
                 <button type="submit">Create Account</button>
             </p>
         
-        <p>Already have an account? <a href="">log in</a></p>
+            <p class="login">Already have an account? <a href="">log in</a></p>
         </section>
 
     </form>

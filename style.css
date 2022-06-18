@@ -51,7 +51,7 @@ table {
 
 
 :root {
-    --main-color:rgb(209, 209, 209);
+    --main-color:rgb(189, 188, 188);
     --second-color:rgb(121, 121, 121);
 }
 
@@ -109,9 +109,10 @@ input{
     background-color: black;
     border-radius: 3px;
     border-style: solid;
-    border-color: var(--main-color);
+    border-color: var(--second-color);
     border-width: 1px;
     height: 18px;
+    color: var(--second-color);
 }
 
 em {
@@ -169,5 +170,61 @@ legend {
     /* background:cover; */
     /* width: 100%; */
     /* background-color: aliceblue; */
+}
 
+.button, .login{
+    padding-left: 5vw;
+    color: var(--main-color);
+    margin-bottom: 30px;
+}
+
+button {
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border:0.1em solid rgb(255, 179, 0);
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 800;
+    color: rgb(255, 179, 0);
+    text-align: center;
+    transition: all 0.2s;
+    background-color: black;
+    font-size: 24px;
+}
+
+button:hover{
+    color: var(--main-color);
+    background-color: rgb(255, 179, 0);
+}
+
+.login {
+    font-size: 18px;
+}
+
+a{
+    color: rgb(255, 179, 0);
+    text-decoration:none;
+    font-weight: 500;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--main-color);
+    /* background-color: rgb(255, 179, 0); */
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px black inset !important;
+}
+
+input:-webkit-autofill{
+    -webkit-text-fill-color: var(--second-color) !important;
 }

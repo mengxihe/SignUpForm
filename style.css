@@ -61,6 +61,7 @@ table {
 .crossSection {
     height: 100vh;
     width: auto;
+    
 }
 
 
@@ -73,7 +74,7 @@ table {
 }
 
 .logo-background {
-    margin-top: 60%;
+    margin-top: 10%;
     position:absolute;
     background: rgba(0, 0, 0, 0.6);
     width: 100%;

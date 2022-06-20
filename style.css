@@ -113,7 +113,15 @@ input{
     border-width: 1px;
     height: 18px;
     color: var(--second-color);
+    outline: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
 }
+
+input:focus {
+    border: 2px solid rgb(255, 179, 0);
+}
+
 
 em {
     font-style: italic;

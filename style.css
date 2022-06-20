@@ -53,6 +53,7 @@ table {
 :root {
     --main-color:rgb(189, 188, 188);
     --second-color:rgb(121, 121, 121);
+    --button-color:rgb(255, 179, 0);
 }
 
 
@@ -85,6 +86,7 @@ table {
     width: 100%;
     height: 150px;
 }
+
 .content {
     position: absolute;
     
@@ -119,7 +121,7 @@ input{
 }
 
 input:focus {
-    border: 2px solid rgb(255, 179, 0);
+    border: 2px solid var(--button-color);
 }
 
 
@@ -189,13 +191,13 @@ legend {
 button {
     display: inline-block;
     padding: 0.35em 1.2em;
-    border:0.1em solid rgb(255, 179, 0);
+    border:0.1em solid var(--button-color);
     margin: 0 0.3em 0.3em 0;
     border-radius: 0.12em;
     box-sizing: border-box;
     text-decoration: none;
     font-weight: 800;
-    color: rgb(255, 179, 0);
+    color: var(--button-color);
     text-align: center;
     transition: all 0.2s;
     background-color: black;
@@ -204,7 +206,7 @@ button {
 
 button:hover{
     color: var(--main-color);
-    background-color: rgb(255, 179, 0);
+    background-color: var(--button-color);
 }
 
 .login {
@@ -212,7 +214,7 @@ button:hover{
 }
 
 a{
-    color: rgb(255, 179, 0);
+    color: var(--button-color);
     text-decoration:none;
     font-weight: 500;
 }
